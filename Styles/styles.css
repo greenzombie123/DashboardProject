@@ -234,7 +234,7 @@ main h2 {
 
 .classBox {
   border-radius: var(--borderRadius);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
   box-shadow: var(--shadowspread);
   padding: 10px 20px;
@@ -478,7 +478,6 @@ main h2 {
 }
 
 .news .announcementContainer p:first-child{
-  /* font-size: 14px; */
   font-weight: bolder;
   margin-bottom: 6px;
 }
@@ -504,4 +503,52 @@ main h2 {
 .announcementContainer div{
   flex: 1;
   margin-top: 10px;
+}
+
+/*    Trending Section    */
+
+.yellow{
+  background-color: #E4D33A;
+}
+
+.blue{
+  background-color: #3AA7E4;
+}
+
+.orange{
+  background-color: #FFA500;
+}
+
+.trendingContainer{
+  background-color: #FFFFFF;
+  border-radius: var(--borderRadius);
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 10px 20px;
+  box-shadow: var(--shadowspread);
+  margin: 10px;
+}
+
+.news .trendingContainer p:first-child{
+  font-weight: bolder;
+  margin-bottom: 6px;
+}
+
+.news .trendingContainer p:nth-child(2){
+  color: var(--transparent);
+}
+
+.trendingItem{
+  flex: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.trending_usericon{
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 16%;
+  height: 100%;
 }
